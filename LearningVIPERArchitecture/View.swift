@@ -47,7 +47,7 @@ class DetailViewController : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .yellow
+        view.backgroundColor = .blue
         view.addSubview(currencyLabel)
         view.addSubview(priceLabel)
        
@@ -92,7 +92,7 @@ class CryptoViewController: UIViewController, AnyView, UITableViewDelegate, UITa
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .yellow
+        view.backgroundColor = .blue
         view.addSubview(tableView)
         view.addSubview(messageLabel)
         
@@ -124,7 +124,7 @@ class CryptoViewController: UIViewController, AnyView, UITableViewDelegate, UITa
             content.text = cryptos[indexPath.row].currency
             content.secondaryText = cryptos[indexPath.row].price
             cell.contentConfiguration = content
-            cell.backgroundColor = .yellow
+            cell.backgroundColor = .blue
             return cell
             
         } else {

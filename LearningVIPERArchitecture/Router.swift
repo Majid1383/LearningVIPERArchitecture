@@ -40,5 +40,4 @@ class CrytoRouter : AnyRouter{
         
         return router
     }
-      
 }
